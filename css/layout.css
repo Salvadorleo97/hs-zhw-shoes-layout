@@ -24,4 +24,40 @@
 
 /* Positioning Classes */
 
+section.shadow.left-col {
+  width: 66%;
+  display: inline-block;
+}
 
+section.shadow.right-col {
+  display: inline-block;
+  width: 32%;
+}
+
+section.shadow.column {
+  width: 32%;
+  display: inline-block;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+.wrapper.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto 0 auto;
+}
+
+.border_right {
+  display: inline-block;
+  width: 32%;
+  
+}
